@@ -3,11 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
     <title>Sneaker Shoes Online</title>
   </head>
   <body>
@@ -21,25 +18,26 @@
             <div class="navItem" >
                 <div class="search">
                     <input type="text" placeholder="Search..." class="searchInput" >
-                    <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/search.png" width="20" height="20" alt="" class="searchIcon" >
+                    <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/search.png" width="35" height="35" alt="" class="searchIcon" >
                 </div>
             </div>
             <div class="navItem">
                 <div class="add to cart"></div>
                 <span> 
                     <a href="" target="_blank">
-                <img src="heartttttttttttttt.jpeg" width="50" height="50" alt="" class="Wishlist" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <img src="add to cart.jpeg" width="50" height="50" alt="" class="add to cart" >
-                </a>
+                        <i class="fa-solid fa-heart" style="color: white; font-size: 40px;"></i>
+                </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <i class="fa-solid fa-cart-shopping"style="color: white; font-size: 40px;"></i>
+               
                 </span>
             </div>
         </div>
         <div class="navBottom">
-            <h4 class="menuItem">NIKE</h4>
-            <h4 class="menuItem">PUMA</h4>
-            <h4 class="menuItem">ADIDAS</h4>
-            <h4 class="menuItem">CONVERSE</h4>
-            <h4 class="menuItem">NEW BALANCE</h4>
+           <a href="#nike" class="menuItem"> NIKE </a>
+           <a href="#puma" class="menuItem"> PUMA </a>
+           <a href="#adidas" class="menuItem">ADIDAS </a>
+           <a href="#converse" class="menuItem">CONVERSE </a>
+           <a href="#new-balance" class="menuItem">NEW BALANCE</a>
         </div>
     </nav>
     <div class="slider" >
@@ -47,14 +45,13 @@
             <div class="sliderItem" >
                 <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/air.png" alt="" class="sliderImg" >
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">AIR FORCE</br> NEW</br>SEASON</h1>
+                <h1 class="sliderTitle">NIKE</br> NEW</br>SEASON</h1>
                 <h2 class="sliderPrice">$120</h2>
                 <a href="#product">
                     <button class="buyButton">BUY NOW!</button>
                 </a>
             </div>
             <div class="sliderItem" >
-                <div class="puma">
                 <img src="puma home.jpg" alt="" class="sliderImg" >
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">PUMA</br> NEW</br>SEASON</h1>
@@ -63,11 +60,10 @@
                     <button class="buyButton">BUY NOW!</button>
                 </a>
             </div>
-            </div>
             <div class="sliderItem" >
                 <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/blazer.png" alt="" class="sliderImg" >
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">BLAZER</br> NEW</br>SEASON</h1>
+                <h1 class="sliderTitle">ADIDAS</br> NEW</br>SEASON</h1>
                 <h2 class="sliderPrice">$110</h2>
                 <a href="#product">
                     <button class="buyButton">BUY NOW!</button>
@@ -76,7 +72,7 @@
             <div class="sliderItem" >
                 <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/crater.png" alt="" class="sliderImg" >
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">CRATER</br> NEW</br>SEASON</h1>
+                <h1 class="sliderTitle">CONVERSE</br> NEW</br>SEASON</h1>
                 <h2 class="sliderPrice">$129</h2>
                 <a href="#product">
                     <button class="buyButton">BUY NOW!</button>
@@ -85,7 +81,7 @@
             <div class="sliderItem" >
                 <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/hippie.png" alt="" class="sliderImg" >
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">HIPPIE</br> NEW</br>SEASON</h1>
+                <h1 class="sliderTitle">NEW BALANCE</br> NEW</br>SEASON</h1>
                 <h2 class="sliderPrice">$99</h2>
                 <a href="#product">
                     <button class="buyButton">BUY NOW!</button>
@@ -120,15 +116,12 @@
     <div class="product" id="product" >
         <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/sneaker-images/air.png" alt="" class="productImg">
         <div class="productDetails">
-            <h1 class="productTitle" >AIR FORCE</h1>
+            <h1 class="productTitle" >AIR FORCE 1</h1>
             <h2 class="productPrice">$199</h2>
-            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
-                dolorum
-                doloremque sapiente aliquid aperiam.</p>
-            <div class="colors">
-                <div class="color"></div>
-                <div class="color"></div>
-            </div>
+            <p class="productDesc">
+                These AF-1s are going back to school and they just won "Best Dressed". Layers of canvas and synthetic leather create a vintage, varsity-inspired aesthetic. Don't forget to leave your mark: the sockliner graphics are inspired by school yearbooks—and we already signed it.
+            </p>
+            <h2> Shoe size(Uk)</h2>
             <div class="sizes">
                 <div class="size">42</div>
                 <div class="size">43</div>
