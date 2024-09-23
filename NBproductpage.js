@@ -1,7 +1,7 @@
 // Array of 15 Puma sneaker objects
 const sneakers = [
-    { id: 1, name: "NEW BALANCE BB550'WHITE'", price: 12999, image: "sneaker1.jpg" },
-    { id: 2, name: "NEW BALANCE 327", price: 10999, image: "sneaker2.jpg" },
+    { id: 1, name: "NEW BALANCE BB550'WHITE'", price: 12999, image: "PUMA.png" },
+    { id: 2, name: "NEW BALANCE 327'BLUE'", price: 10999, image: "sneaker2.jpg" },
     { id: 3, name: "NEW BALANCE </br> WMN'S 327", price: 10999, image: "sneaker3.jpg" },
     { id: 4, name: "NEW BALANCE 530", price: 10999, image: "sneaker4.jpg" },
     { id: 5, name: "NEW BALANCE</br> WMN'S 574", price: 10999, image: "sneaker5.jpg" },
