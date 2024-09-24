@@ -98,70 +98,69 @@ body {
   }
 
   .Shoe1 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe2 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe3 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe4 {
-    border: 2px solid black;
-    text-align: center;
+    border: 2px solid white;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe5 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe6 {
-    border: 2px solid black;
+    border: 2px solid white;;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe7 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe8 {
-    border: 2px solid black;
+    border: 2px solid white;;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe9 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
   }
 
   .Shoe10 {
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin-right: 2%;
     padding-bottom: 5%;
@@ -169,7 +168,7 @@ body {
 
 
 .products-container {
-    padding: 20px;;
+    padding: 20px;
 }
 
 .product-grid {
@@ -214,6 +213,40 @@ body {
     background-color: #555;
 }
 
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .footer-container
 {  height:30%;
    width: 100%;
@@ -227,7 +260,6 @@ body {
    background-color:white;
    gap: 2rem;
 }
-
 
 .footer-container > div {
   margin: 20px;
